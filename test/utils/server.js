@@ -48,7 +48,7 @@ class TestRestbase {
             apiBase,
             apiPath,
             apiURL,
-            parsoidURI: 'https://en.wikipedia.beta.wmflabs.org/w/rest.php',
+            parsoidURI: 'https://parsoid-beta.wmflabs.org/w/rest.php',
             conf
         }
     }

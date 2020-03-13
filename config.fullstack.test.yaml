@@ -7,7 +7,7 @@ default_project: &default_project
               - path: projects/v1/default.wmf.yaml
                 options: &default_options
                   parsoid:
-                    host: https://en.wikipedia.beta.wmflabs.org/w/rest.php
+                    host: http://parsoid-external-ci-access.beta.wmflabs.org/w/rest.php
                     grace_ttl: 1000000
                   action:
                     apiUriTemplate: "{{'https://{domain}/w/api.php'}}"
